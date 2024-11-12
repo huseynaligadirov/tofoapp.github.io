@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="header-bar"></div>
+        <div class="header">
+            <h2>Task Manager</h2>
+        </div>
+        <div class="sort-container">
+            <button id="sortTasks" class="sort-button">
+                <img src="assets/sort-icon.svg" alt="" srcset="">
+            </button>
+        </div>
+        <ol id="taskCollection" class="task-list hidden"></ol>
+        <div id="newTask" class="new-task-container">
+            <div class="task-item">
+                <input type="text" placeholder="New task" required>
+                <button class="delete-button">✕</button>
+            </div>
+        </div>
+        <button class="add-button" id="toggleAddTask">
+            <div class="add-icon">+</div>
+            <div class="label">Add Task</div>
+        </button>
+    </div>
+
+    <script src="app.js" >
+      
+    </script>
+</body>
+</html>
